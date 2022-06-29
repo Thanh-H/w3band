@@ -1,0 +1,95 @@
+/* pc */
+@media (min-width:64em) {
+.mobile-menu-btn {
+    display: none;
+}
+}
+
+/* Tablet and mobile */
+
+@media (max-width:63.9375em) {
+.btn {
+    padding: 15px 16px;
+}
+
+#footer .social-list {
+    font-size: 48px;
+}
+
+}
+
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Mobile */
+ @media (max-width:46.1875em) {
+.s-full-width,
+.s-col-full {
+    width: 100%;
+}
+
+#header .search-btn {
+        display: none;
+ }
+
+ #header {
+        overflow: hidden;
+ }
+
+#nav {
+    display: block;
+}
+ 
+#nav .subnav {
+    position: initial;
+}
+
+#nav .subnav li {
+    display: block;
+    background-color: #333;
+    padding: 0 36px;
+    
+}
+
+#nav .subnav a{
+    color: #fff;
+}
+
+#nav li:hover {
+    background-color: #000;
+}
+
+#nav > li {
+    display: block;
+    
+}
+
+#nav > li:first-child {
+    display: inline-block;
+}
+
+#nav li a {
+    display: block;
+    cursor: default;
+}
+
+#content .content-section {
+    max-width: 90%;
+}
+
+#content .member-img {
+    width: 60%;
+}
+
+
+.contact-form {
+    margin-top: 8px;
+}
+
+}
+
+
